@@ -10,13 +10,13 @@
 
 Our solution introduces a **single smartcard** capable of handling **multiple merchants’ gift balances and rewards**, seamlessly integrated with existing PoS terminals via the **Gardio Gift PoS app**.
 
-Originally built on **Solana**, Gardio Gift was **adapted and optimized for Hedera** during the hackathon (starting October 25) to leverage its high throughput, scalability, and low fees. Enabling real-world use of blockchain-powered rewards in everyday retail environments.
+Originally built on **Solana**, Gardio Gift was **adapted and optimized for Hedera** during the hackathon (starting October 25) to leverage its high throughput, scalability, and low fees — enabling real-world use of blockchain-powered rewards in everyday retail environments.
 
 ---
 
 ## Demo
-[![Gardio Gift Demo](./preview.png)](vimeo.com/1132512934)  
-**Watch the full demo on Vimeo:** [Gardio Gift Demo](vimeo.com/1132512934)
+[![Gardio Gift Demo](./preview.png)](https://vimeo.com/1132512934)  
+**Watch the full demo on Vimeo:** [Gardio Gift Demo](https://vimeo.com/1132512934)
 
 ---
 
@@ -35,7 +35,7 @@ A **Card + PoS Simulator** was developed for the hackathon to replicate real-wor
 
 ## System Components
 
-1. **Portal Frontend** – User interface for viewing transactions, balances, and transfering/sharing gift cards   
+1. **Portal Frontend** – User interface for viewing transactions, balances, and transferring/sharing gift cards  
 2. **Gardio Gift Smartcard** – Secure EMV-based card that stores multi-merchant gift and reward data  
 3. **PoS Application** – Merchant-side app for redeeming or loading gifts, compatible with standard PoS systems  
 4. **Backend Server** – Handles communication between the PoS, card, and blockchain (Hedera network)  
@@ -103,4 +103,11 @@ During the hackathon (starting October 25), the following were developed and del
 
 ## Source Code Access
 
-The **Gardio Gift source code** can be shared **under ND**
+The **Gardio Gift source code** can be shared **under a Non-Disclosure Agreement (NDA)** for evaluation or technical review.  
+Please contact **info@gardio.io** to request access.  
+
+The **Pitch Deck** and **Demo Guide** (including the Gardio Gift Portal, Simulator, and credentials) were provided via **Box links** during the hackathon submission.
+
+---
+
+© 2025 Gardio
