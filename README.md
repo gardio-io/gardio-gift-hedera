@@ -62,7 +62,7 @@ A **Card + PoS Simulator** was developed for the hackathon to replicate real-wor
 During the hackathon (starting October 25), the following were developed and delivered:
 1. **Hedera Network Integration** – Smart contracts for reward and gift tracking  
 2. **Card + PoS Simulator** – Enables full testing without hardware  
-3. **Gardio Gift Portal** – Web-based interface for managing merchants, cards, and balances  
+3. **Gardio Gift Portal** – Web-based interface for users to view their gift balances, rewards, promotions, and transactions.  
 
 ---
 
