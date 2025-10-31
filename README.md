@@ -6,7 +6,7 @@
 
 ## Overview
 
-**Gardio Gift** aims to empower **smart gifting and rewards** on traditional **Point of Sale (PoS)** systems — built on **Hedera** and powered by the **Gardio Gift Smartcard**.
+Gardio Gift empowers seamless gift card and reward management across traditional Point of Sale (PoS) systems, built on Hedera and powered by the Gardio Gift Smartcard.
 
 Our solution introduces a **single smartcard** capable of handling **multiple merchants’ gift balances and rewards**, seamlessly integrated with existing PoS terminals via the **Gardio Gift PoS app**.
 
