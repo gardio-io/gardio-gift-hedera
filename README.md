@@ -14,12 +14,6 @@ Originally built on **Solana**, Gardio Gift was **adapted and optimized for Hede
 
 ---
 
-## Demo
-[![Gardio Gift Demo](./preview.png)](https://vimeo.com/1132512934)  
-**Watch the full demo on Vimeo:** [Gardio Gift Demo](https://vimeo.com/1132512934)
-
----
-
 ## Project Description
 
 **Gardio Gift** demonstrates a complete, real-world gifting and rewards ecosystem powered by blockchain, featuring:  
@@ -46,6 +40,23 @@ A **Card + PoS Simulator** was developed for the hackathon to replicate real-wor
 
 ---
 
+## Workflow Summary
+
+1. **Merchant Setup (Offline)** – Register and provision PoS terminals  
+2. **Card Issuance (Offline)** – Initialize Gardio Gift Smartcards and assign merchant access  
+3. **Gift / Reward Flow (Demo)** –  
+   - Merchant issues or tops up a gift/reward via the **Gardio Gift Portal**  
+   - Recipient redeems via **PoS terminal**  
+   - The **Gardio Smartcard** validates and updates the transaction via the **Gardio Server**, recorded on **Hedera**  
+   - Merchant and recipient view updated balances instantly  
+4. **Portal Management** – Full visibility of gifts, rewards, and redemption history  
+---
+
+## Demo
+[![Gardio Gift Demo](./preview.png)](https://vimeo.com/1132512934)  
+**Watch the full demo on Vimeo:** [Gardio Gift Demo](https://vimeo.com/1132512934)
+
+---
 ## Hackathon Deliverables
 
 During the hackathon (starting October 25), the following were developed and delivered:
@@ -59,19 +70,6 @@ During the hackathon (starting October 25), the following were developed and del
 
 - **Private keys** remain securely stored on the Gardio Gift Smartcard  
 - **All activity** (issuance, redemption, and balance updates) is verifiable on the Hedera public ledger  
-
----
-
-## Workflow Summary
-
-1. **Merchant Setup (Offline)** – Register and provision PoS terminals  
-2. **Card Issuance (Offline)** – Initialize Gardio Gift Smartcards and assign merchant access  
-3. **Gift / Reward Flow (Demo)** –  
-   - Merchant issues or tops up a gift/reward via the **Gardio Gift Portal**  
-   - Recipient redeems via **PoS terminal**  
-   - The **Gardio Smartcard** validates and updates the transaction via the **Gardio Server**, recorded on **Hedera**  
-   - Merchant and recipient view updated balances instantly  
-4. **Portal Management** – Full visibility of gifts, rewards, and redemption history  
 
 ---
 
