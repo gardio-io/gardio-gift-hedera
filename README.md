@@ -45,12 +45,12 @@ A **Card + PoS Simulator** was developed for the hackathon to replicate real-wor
 ## Workflow Summary
 
 1. **Merchant Setup (Offline)** – Register and provision PoS terminals  
-2. **Card Issuance (Offline)** – Initialize Gardio Gift Smartcards and assign merchant access  
+2. **Card Issuance (Offline)** – Initialize Gardio Gift Smartcards and assign merchant access   
 3. **Gift / Reward Flow (Demo)** –  
-  - Merchant funds the user card with the gift balance and reward via **PoS terminal**.  
-  - User redeems the gift via **PoS terminal**, using the card like a normal payment.  
-  - **Gardio Smartcard** signs both fund and redeem transactions for processing by the smart contract.  
-  - Users see updated balances instantly on their portals. 
+   - Merchant funds the user card with the gift balance and reward via **PoS terminal**.  
+   - User redeems the gift via **PoS terminal**, using the card like a normal payment.  
+   - **Gardio Smartcard** signs both fund and redeem transactions for processing by the smart contract.  
+   - Users see updated balances instantly on their portals.
 4. **Portal Management** – Full visibility of gifts, rewards, and redemption history  
 ---
 
