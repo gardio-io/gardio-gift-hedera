@@ -77,7 +77,7 @@ During the hackathon (starting October 25), the following updates were implement
 
 ## Upcoming Features
 
-1. **Mobile App** – Dedicated mobile interface for managing gift cards, rewards, and balances (web app already supports mobile view).  
+1. **Mobile App** – Dedicated mobile interface for managing gift cards, rewards, and balances.  
 2. **Transfer Gift Feature** – Ability to send or transfer gifts directly between users  
 3. **Contactless Support** – Enhanced PoS experience using NFC-enabled Gardio Gift Smartcards  
 4. **Merchant Portal** – Interface for merchants to set gift rules, issue rewards, and manage promotions. 
