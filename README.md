@@ -10,31 +10,33 @@ Gardio Gift empowers seamless gift card and reward management across traditional
 
 Our solution introduces a **single smartcard** capable of handling **multiple merchants’ gift balances and rewards**, seamlessly integrated with existing PoS terminals via the **Gardio Gift PoS app**.
 
-Originally built on **Solana**, Gardio Gift was **adapted and optimized for Hedera** during the hackathon (starting October 25) to leverage its high throughput, scalability, and low fees — enabling real-world use of blockchain-powered rewards in everyday retail environments.
+Originally built on **Solana**, Gardio Gift was adapted and optimized for **Hedera** during the hackathon (**starting October 25**) to leverage Hedera’s high throughput, scalability, and low fees, enabling real-world, distributed ledger–powered rewards in everyday retail environments
 
 ---
 
 ## Project Description
 
-**Gardio Gift** demonstrates a complete, real-world gifting and rewards ecosystem powered by blockchain, featuring:  
-- **Gardio Gift Smartcard** – a single EMV-compatible card holding multiple merchants’ gifts and rewards  
-- **PoS Terminal App** – processes redemptions and updates balances using existing retail PoS systems  
-- **Gardio Gift Portal** – manages cards, merchants, and reward balances  
+**Gardio Gift** demonstrates a complete gift card and rewards management system powered by Hedera, featuring:  
 
-Consumers can redeem or gift rewards directly at any participating merchant, while businesses can easily issue and manage digital gift balances through a unified backend.  
+- **Gardio Gift Smartcard** – A single EMV-compatible card that signs all transactions.  
+- **PoS Terminal App** – Funds the card with gift balances and rewards; runs on traditional EMV PoS terminals.  
+- **Gardio Gift Portals** – For merchants: set gift rules and promotions. For users: view balances, transactions, and transfer/share gift cards.  
+
+Consumers can redeem or gift rewards at any participating merchant, while businesses can easily issue and manage digital gift balances through a unified backend.  
 
 A **Card + PoS Simulator** was developed for the hackathon to replicate real-world retail interactions without physical hardware.
+
 
 ---
 
 ## System Components
 
-1. **Portal Frontend** – User interface for viewing transactions, balances, and transferring/sharing gift cards  
-2. **Gardio Gift Smartcard** – Secure EMV-based card that stores multi-merchant gift and reward data  
-3. **PoS Application** – Merchant-side app for redeeming or loading gifts, compatible with standard PoS systems  
-4. **Backend Server** – Handles communication between the PoS, card, and blockchain (Hedera network)  
-5. **Smart Contract** – Maintains on-chain records of gift issuance, redemption, and balance states  
-6. **Gardio Simulator** – Demonstrates card–terminal interaction for demo purposes  
+1. **User Portal Frontend** – View balances, transactions, and transfer/share gift cards.  
+2. **Gardio Gift Smartcard** – Secure EMV card that signs gift transactions.  
+3. **PoS Application** – Merchant app for loading or redeeming gifts, works with standard terminals.  
+4. **Backend Server** – Connects PoS, card, and Hedera network.  
+5. **Smart Contract** – Verifies signatures, updates balances/rewards, and keeps on-chain records.  
+6. **Gardio Simulator** – Testing tool for card–terminal interactions: composes EMV transactions, signs them on behalf of the card, and forwards to the backend for processing.
 
 > **Note:** Merchant registration, card issuance, and terminal provisioning are performed offline as part of the setup process.
 
@@ -45,10 +47,10 @@ A **Card + PoS Simulator** was developed for the hackathon to replicate real-wor
 1. **Merchant Setup (Offline)** – Register and provision PoS terminals  
 2. **Card Issuance (Offline)** – Initialize Gardio Gift Smartcards and assign merchant access  
 3. **Gift / Reward Flow (Demo)** –  
-   - Merchant issues or tops up a gift/reward via the **Gardio Gift Portal**  
-   - Recipient redeems via **PoS terminal**  
-   - The **Gardio Smartcard** validates and updates the transaction via the **Gardio Server**, recorded on **Hedera**  
-   - Merchant and recipient view updated balances instantly  
+  - Merchant funds the user card with the gift balance and reward via **PoS terminal**.  
+  - User redeems the gift via **PoS terminal**, using the card like a normal payment.  
+  - **Gardio Smartcard** signs both fund and redeem transactions for processing by the smart contract.  
+  - Users see updated balances instantly on their portals. 
 4. **Portal Management** – Full visibility of gifts, rewards, and redemption history  
 ---
 
@@ -59,10 +61,10 @@ A **Card + PoS Simulator** was developed for the hackathon to replicate real-wor
 ---
 ## Hackathon Deliverables
 
-During the hackathon (starting October 25), the following were developed and delivered:
-1. **Hedera Network Integration** – Smart contracts for reward and gift tracking  
-2. **Card + PoS Simulator** – Enables full testing without hardware  
-3. **Gardio Gift Portal** – Web-based interface for users to view their gift balances, rewards, promotions, and transactions.  
+During the hackathon (starting October 25), the following updates were implemented:
+
+- **Hedera Network Support** – Migrated from Solana; smart contracts rewritten in Solidity; frontend and backend updated for Hedera SDK and MetaMask.  
+- **Card + PoS Simulator** – Enables full demo testing without physical hardware.
 
 ---
 
@@ -78,7 +80,7 @@ During the hackathon (starting October 25), the following were developed and del
 1. **Mobile App** – Mobile interface for managing gift cards, rewards, and balances  
 2. **Transfer Gift Feature** – Ability to send or transfer gifts directly between users  
 3. **Contactless Support** – Enhanced PoS experience using NFC-enabled Gardio Gift Smartcards  
-4. **Merchant Portal** – Merchant interface for managing gift balances and issuing rewards  
+4. **Merchant Portal** – Interface for merchants to set gift rules, issue rewards, and manage promotions. 
 
 ---
 
